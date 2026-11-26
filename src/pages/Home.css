@@ -1,0 +1,22 @@
+.home__hero-fallback { height: calc(var(--nav-h) + 1rem); }
+
+.home__genres {
+  margin-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  padding-block: 1.6rem;
+  border-block: 1px solid var(--border);
+}
+.home__genres-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style: italic;
+}
+.home__genre-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

@@ -1,0 +1,998 @@
+[
+  {
+    "id": 1,
+    "mediaType": "movie",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": 8.7,
+    "runtime": 142,
+    "director": "Frank Darabont",
+    "tagline": "Fear can hold you prisoner. Hope can set you free.",
+    "overview": "A banker sentenced to life for a crime he swears he didn't commit spends two decades inside a brutal prison, quietly building an unlikely friendship and an even more unlikely plan.",
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton",
+      "William Sadler"
+    ],
+    "popularity": 78
+  },
+  {
+    "id": 2,
+    "mediaType": "movie",
+    "title": "The Godfather",
+    "year": 1972,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": 8.7,
+    "runtime": 175,
+    "director": "Francis Ford Coppola",
+    "tagline": "An offer you can't refuse.",
+    "overview": "The aging head of a New York crime family tries to hand his empire to a reluctant son, who is pulled deeper into the family business than he ever intended.",
+    "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan",
+      "Diane Keaton"
+    ],
+    "popularity": 74
+  },
+  {
+    "id": 3,
+    "mediaType": "movie",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.5,
+    "runtime": 152,
+    "director": "Christopher Nolan",
+    "tagline": "Why so serious?",
+    "overview": "Gotham's masked vigilante faces a chaos-loving criminal who wants to prove that anyone, even the city's brightest hero, can be pushed to the edge.",
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Gary Oldman"
+    ],
+    "popularity": 90
+  },
+  {
+    "id": 4,
+    "mediaType": "movie",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "rating": 8.5,
+    "runtime": 154,
+    "director": "Quentin Tarantino",
+    "tagline": "Just because you are a character doesn't mean you have character.",
+    "overview": "Two hitmen, a boxer, a gangster's wife and a pair of diner robbers collide in a playful, out-of-order tangle of Los Angeles crime stories.",
+    "cast": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman",
+      "Bruce Willis"
+    ],
+    "popularity": 70
+  },
+  {
+    "id": 5,
+    "mediaType": "movie",
+    "title": "Inception",
+    "year": 2010,
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Thriller"
+    ],
+    "rating": 8.4,
+    "runtime": 148,
+    "director": "Christopher Nolan",
+    "tagline": "Your mind is the scene of the crime.",
+    "overview": "A thief who steals secrets from inside dreams is offered one last job: instead of taking an idea, he has to plant one, layers deep in a target's subconscious.",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page",
+      "Tom Hardy"
+    ],
+    "popularity": 88
+  },
+  {
+    "id": 6,
+    "mediaType": "movie",
+    "title": "Interstellar",
+    "year": 2014,
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Drama"
+    ],
+    "rating": 8.4,
+    "runtime": 169,
+    "director": "Christopher Nolan",
+    "tagline": "Mankind was born on Earth. It was never meant to die here.",
+    "overview": "With Earth's crops failing, a former pilot leaves his family to lead a desperate voyage through a wormhole in search of a new home for humanity.",
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain",
+      "Michael Caine"
+    ],
+    "popularity": 92
+  },
+  {
+    "id": 7,
+    "mediaType": "movie",
+    "title": "Parasite",
+    "year": 2019,
+    "genres": [
+      "Thriller",
+      "Comedy",
+      "Drama"
+    ],
+    "rating": 8.5,
+    "runtime": 133,
+    "director": "Bong Joon-ho",
+    "tagline": "Act like you own the place.",
+    "overview": "A struggling family cons its way, one job at a time, into the household of a wealthy couple, until a secret beneath the house upends everything.",
+    "cast": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong",
+      "Choi Woo-shik"
+    ],
+    "popularity": 80
+  },
+  {
+    "id": 8,
+    "mediaType": "movie",
+    "title": "Spirited Away",
+    "year": 2001,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Family"
+    ],
+    "rating": 8.5,
+    "runtime": 125,
+    "director": "Hayao Miyazaki",
+    "tagline": "Nothing that happens is ever forgotten.",
+    "overview": "On the way to a new home, a ten-year-old girl wanders into a world of spirits and must work in a magical bathhouse to free her parents from a witch's spell.",
+    "cast": [
+      "Rumi Hiiragi",
+      "Miyu Irino",
+      "Mari Natsuki",
+      "Bunta Sugawara"
+    ],
+    "popularity": 76
+  },
+  {
+    "id": 9,
+    "mediaType": "movie",
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": [
+      "Science Fiction",
+      "Action"
+    ],
+    "rating": 8.2,
+    "runtime": 136,
+    "director": "Lana & Lilly Wachowski",
+    "tagline": "Reality is a thing of the past.",
+    "overview": "A hacker learns that the world he knows is a simulation run by machines, and that he may be the one person able to break humanity free.",
+    "cast": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss",
+      "Hugo Weaving"
+    ],
+    "popularity": 82
+  },
+  {
+    "id": 10,
+    "mediaType": "movie",
+    "title": "Fight Club",
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "rating": 8.4,
+    "runtime": 139,
+    "director": "David Fincher",
+    "tagline": "Mischief. Mayhem. Soap.",
+    "overview": "An insomniac office worker and a charismatic soap salesman start an underground club that spirals into something far more dangerous.",
+    "cast": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter",
+      "Meat Loaf"
+    ],
+    "popularity": 68
+  },
+  {
+    "id": 11,
+    "mediaType": "movie",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "rating": 8.5,
+    "runtime": 142,
+    "director": "Robert Zemeckis",
+    "tagline": "The world will never be the same once you've seen it through the eyes of Forrest Gump.",
+    "overview": "A kind-hearted man from Alabama drifts through decades of American history, always hoping to reunite with the girl he has loved since childhood.",
+    "cast": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise",
+      "Sally Field"
+    ],
+    "popularity": 72
+  },
+  {
+    "id": 12,
+    "mediaType": "movie",
+    "title": "Gladiator",
+    "year": 2000,
+    "genres": [
+      "Action",
+      "Drama",
+      "Adventure"
+    ],
+    "rating": 8.2,
+    "runtime": 155,
+    "director": "Ridley Scott",
+    "tagline": "A hero will rise.",
+    "overview": "Betrayed and enslaved, a Roman general fights his way up through the arenas toward the emperor who murdered his family.",
+    "cast": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen",
+      "Oliver Reed"
+    ],
+    "popularity": 71
+  },
+  {
+    "id": 13,
+    "mediaType": "movie",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "genres": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "rating": 8.4,
+    "runtime": 178,
+    "director": "Peter Jackson",
+    "tagline": "One ring to rule them all.",
+    "overview": "A quiet hobbit inherits a ring of terrible power and sets out with eight companions on a perilous journey to destroy it.",
+    "cast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen",
+      "Sean Astin"
+    ],
+    "popularity": 79
+  },
+  {
+    "id": 14,
+    "mediaType": "movie",
+    "title": "Whiplash",
+    "year": 2014,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "rating": 8.4,
+    "runtime": 107,
+    "director": "Damien Chazelle",
+    "tagline": "The road to greatness can take you to the edge.",
+    "overview": "An ambitious young jazz drummer is pushed to his physical and mental limits by a ferocious conservatory instructor.",
+    "cast": [
+      "Miles Teller",
+      "J.K. Simmons",
+      "Melissa Benoist",
+      "Paul Reiser"
+    ],
+    "popularity": 64
+  },
+  {
+    "id": 15,
+    "mediaType": "movie",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "rating": 7.6,
+    "runtime": 120,
+    "director": "George Miller",
+    "tagline": "What a lovely day.",
+    "overview": "In a scorched wasteland, a drifter and a rebel commander flee across the desert in a war rig, chased by a tyrant and his army of fanatics.",
+    "cast": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult",
+      "Hugh Keays-Byrne"
+    ],
+    "popularity": 73
+  },
+  {
+    "id": 16,
+    "mediaType": "movie",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 8.4,
+    "runtime": 117,
+    "director": "Persichetti, Ramsey & Rothman",
+    "tagline": "More than one wears the mask.",
+    "overview": "Brooklyn teen Miles Morales gains spider powers just as a collider tears open reality, bringing a crew of Spider-People from other dimensions.",
+    "cast": [
+      "Shameik Moore",
+      "Hailee Steinfeld",
+      "Jake Johnson",
+      "Mahershala Ali"
+    ],
+    "popularity": 77
+  },
+  {
+    "id": 17,
+    "mediaType": "movie",
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "rating": 8.2,
+    "runtime": 166,
+    "director": "Denis Villeneuve",
+    "tagline": "Long live the fighters.",
+    "overview": "Paul Atreides unites with the desert people of Arrakis to wage war on the house that destroyed his family, while dreading the future he foresees.",
+    "cast": [
+      "Timothée Chalamet",
+      "Zendaya",
+      "Rebecca Ferguson",
+      "Austin Butler"
+    ],
+    "popularity": 98
+  },
+  {
+    "id": 18,
+    "mediaType": "movie",
+    "title": "Oppenheimer",
+    "year": 2023,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "rating": 8.1,
+    "runtime": 181,
+    "director": "Christopher Nolan",
+    "tagline": "The world forever changes.",
+    "overview": "The story of the physicist who led the race to build the atomic bomb, and of the political storm that followed him afterwards.",
+    "cast": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Robert Downey Jr.",
+      "Florence Pugh"
+    ],
+    "popularity": 95
+  },
+  {
+    "id": 19,
+    "mediaType": "movie",
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "genres": [
+      "Science Fiction",
+      "Comedy",
+      "Action"
+    ],
+    "rating": 7.8,
+    "runtime": 139,
+    "director": "Daniels",
+    "tagline": "The universe is so much bigger than you realize.",
+    "overview": "A laundromat owner buried in tax paperwork discovers she can tap into the lives of her alternate selves to stop a threat to every universe.",
+    "cast": [
+      "Michelle Yeoh",
+      "Ke Huy Quan",
+      "Stephanie Hsu",
+      "Jamie Lee Curtis"
+    ],
+    "popularity": 86
+  },
+  {
+    "id": 20,
+    "mediaType": "movie",
+    "title": "Get Out",
+    "year": 2017,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "rating": 7.6,
+    "runtime": 104,
+    "director": "Jordan Peele",
+    "tagline": "Just because you're invited, doesn't mean you're welcome.",
+    "overview": "A young man's weekend visit to his girlfriend's family estate turns from awkward to terrifying as he uncovers what they really want.",
+    "cast": [
+      "Daniel Kaluuya",
+      "Allison Williams",
+      "Bradley Whitford",
+      "Catherine Keener"
+    ],
+    "popularity": 69
+  },
+  {
+    "id": 21,
+    "mediaType": "movie",
+    "title": "La La Land",
+    "year": 2016,
+    "genres": [
+      "Romance",
+      "Music",
+      "Comedy"
+    ],
+    "rating": 7.9,
+    "runtime": 128,
+    "director": "Damien Chazelle",
+    "tagline": "Here's to the fools who dream.",
+    "overview": "An aspiring actress and a jazz pianist fall in love in Los Angeles while chasing dreams that may pull them in different directions.",
+    "cast": [
+      "Ryan Gosling",
+      "Emma Stone",
+      "John Legend",
+      "Rosemarie DeWitt"
+    ],
+    "popularity": 75
+  },
+  {
+    "id": 22,
+    "mediaType": "movie",
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Mystery"
+    ],
+    "rating": 7.5,
+    "runtime": 164,
+    "director": "Denis Villeneuve",
+    "tagline": "The key to the future is finally unearthed.",
+    "overview": "A replicant hunter uncovers a long-buried secret that could plunge what's left of society into chaos, leading him to a missing legend.",
+    "cast": [
+      "Ryan Gosling",
+      "Harrison Ford",
+      "Ana de Armas",
+      "Sylvia Hoeks"
+    ],
+    "popularity": 81
+  },
+  {
+    "id": 23,
+    "mediaType": "movie",
+    "title": "Arrival",
+    "year": 2016,
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Mystery"
+    ],
+    "rating": 7.6,
+    "runtime": 116,
+    "director": "Denis Villeneuve",
+    "tagline": "Why are they here?",
+    "overview": "When mysterious spacecraft touch down across the globe, a linguist races to understand their language before fear tips the world into war.",
+    "cast": [
+      "Amy Adams",
+      "Jeremy Renner",
+      "Forest Whitaker",
+      "Michael Stuhlbarg"
+    ],
+    "popularity": 66
+  },
+  {
+    "id": 24,
+    "mediaType": "movie",
+    "title": "Coco",
+    "year": 2017,
+    "genres": [
+      "Animation",
+      "Family",
+      "Music"
+    ],
+    "rating": 8.2,
+    "runtime": 105,
+    "director": "Lee Unkrich",
+    "tagline": "The celebration of a lifetime.",
+    "overview": "A boy who dreams of becoming a musician stumbles into the vibrant Land of the Dead and sets out to uncover his family's hidden history.",
+    "cast": [
+      "Anthony Gonzalez",
+      "Gael García Bernal",
+      "Benjamin Bratt",
+      "Alanna Ubach"
+    ],
+    "popularity": 74
+  },
+  {
+    "id": 25,
+    "mediaType": "movie",
+    "title": "Joker",
+    "year": 2019,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "rating": 8.1,
+    "runtime": 122,
+    "director": "Todd Phillips",
+    "tagline": "Put on a happy face.",
+    "overview": "Ignored and mistreated by the city around him, a failed stand-up comedian slowly transforms into a symbol of chaos.",
+    "cast": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz",
+      "Frances Conroy"
+    ],
+    "popularity": 78
+  },
+  {
+    "id": 26,
+    "mediaType": "movie",
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Crime"
+    ],
+    "rating": 8.0,
+    "runtime": 99,
+    "director": "Wes Anderson",
+    "tagline": "A murder case. A missing painting. A family fortune.",
+    "overview": "A legendary concierge and his loyal lobby boy are swept into a caper over a priceless painting and a contested inheritance.",
+    "cast": [
+      "Ralph Fiennes",
+      "Tony Revolori",
+      "Saoirse Ronan",
+      "Adrien Brody"
+    ],
+    "popularity": 63
+  },
+  {
+    "id": 27,
+    "mediaType": "movie",
+    "title": "Alien",
+    "year": 1979,
+    "genres": [
+      "Horror",
+      "Science Fiction"
+    ],
+    "rating": 8.2,
+    "runtime": 117,
+    "director": "Ridley Scott",
+    "tagline": "In space no one can hear you scream.",
+    "overview": "The crew of a commercial towing ship answers a distress call and brings back an unknown lifeform that begins hunting them one by one.",
+    "cast": [
+      "Sigourney Weaver",
+      "Tom Skerritt",
+      "John Hurt",
+      "Ian Holm"
+    ],
+    "popularity": 65
+  },
+  {
+    "id": 28,
+    "mediaType": "movie",
+    "title": "Back to the Future",
+    "year": 1985,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Science Fiction"
+    ],
+    "rating": 8.3,
+    "runtime": 116,
+    "director": "Robert Zemeckis",
+    "tagline": "He's the only kid ever to get into trouble before he was born.",
+    "overview": "A teenager is accidentally sent thirty years into the past in a time-traveling car and must make sure his parents still fall in love.",
+    "cast": [
+      "Michael J. Fox",
+      "Christopher Lloyd",
+      "Lea Thompson",
+      "Crispin Glover"
+    ],
+    "popularity": 70
+  },
+  {
+    "id": 29,
+    "mediaType": "movie",
+    "title": "Amélie",
+    "year": 2001,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "rating": 7.9,
+    "runtime": 122,
+    "director": "Jean-Pierre Jeunet",
+    "tagline": "She'll change your life.",
+    "overview": "A shy Parisian waitress decides to secretly improve the lives of the people around her, while dodging the chance to fix her own.",
+    "cast": [
+      "Audrey Tautou",
+      "Mathieu Kassovitz",
+      "Rufus",
+      "Yolande Moreau"
+    ],
+    "popularity": 58
+  },
+  {
+    "id": 30,
+    "mediaType": "movie",
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "rating": 8.2,
+    "runtime": 131,
+    "director": "Joseph Kosinski",
+    "tagline": "Feel the need.",
+    "overview": "Decades after his first tour, a veteran naval aviator returns to train a squad of young pilots for a nearly impossible mission.",
+    "cast": [
+      "Tom Cruise",
+      "Miles Teller",
+      "Jennifer Connelly",
+      "Jon Hamm"
+    ],
+    "popularity": 84
+  },
+  {
+    "id": 31,
+    "mediaType": "movie",
+    "title": "Knives Out",
+    "year": 2019,
+    "genres": [
+      "Mystery",
+      "Comedy",
+      "Crime"
+    ],
+    "rating": 7.8,
+    "runtime": 131,
+    "director": "Rian Johnson",
+    "tagline": "Hell, any of them could have done it.",
+    "overview": "When a wealthy crime novelist is found dead after his birthday party, an eccentric detective untangles the lies of his very suspicious family.",
+    "cast": [
+      "Daniel Craig",
+      "Ana de Armas",
+      "Chris Evans",
+      "Jamie Lee Curtis"
+    ],
+    "popularity": 76
+  },
+  {
+    "id": 32,
+    "mediaType": "movie",
+    "title": "Your Name.",
+    "year": 2016,
+    "genres": [
+      "Animation",
+      "Romance",
+      "Fantasy"
+    ],
+    "rating": 8.5,
+    "runtime": 106,
+    "director": "Makoto Shinkai",
+    "tagline": "Somewhere, someone you've never met is waiting.",
+    "overview": "A city boy and a country girl mysteriously begin swapping bodies, and set out to find each other before a looming comet changes everything.",
+    "cast": [
+      "Ryunosuke Kamiki",
+      "Mone Kamishiraishi",
+      "Masami Nagasawa",
+      "Etsuko Ichihara"
+    ],
+    "popularity": 72
+  },
+  {
+    "id": 33,
+    "mediaType": "tv",
+    "title": "Breaking Bad",
+    "year": 2008,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "rating": 8.9,
+    "seasons": 5,
+    "creator": "Vince Gilligan",
+    "tagline": "Remember my name.",
+    "overview": "A mild-mannered chemistry teacher with a terminal diagnosis teams up with a former student to cook meth, and slowly becomes someone else entirely.",
+    "cast": [
+      "Bryan Cranston",
+      "Aaron Paul",
+      "Anna Gunn",
+      "Bob Odenkirk"
+    ],
+    "popularity": 94
+  },
+  {
+    "id": 34,
+    "mediaType": "tv",
+    "title": "Game of Thrones",
+    "year": 2011,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Adventure"
+    ],
+    "rating": 8.5,
+    "seasons": 8,
+    "creator": "David Benioff & D. B. Weiss",
+    "tagline": "Winter is coming.",
+    "overview": "Noble houses scheme and battle for control of the Iron Throne while an ancient threat gathers beyond the great northern wall.",
+    "cast": [
+      "Emilia Clarke",
+      "Kit Harington",
+      "Peter Dinklage",
+      "Lena Headey"
+    ],
+    "popularity": 89
+  },
+  {
+    "id": 35,
+    "mediaType": "tv",
+    "title": "Stranger Things",
+    "year": 2016,
+    "genres": [
+      "Science Fiction",
+      "Mystery",
+      "Horror"
+    ],
+    "rating": 8.6,
+    "seasons": 4,
+    "creator": "The Duffer Brothers",
+    "tagline": "Every ending has a beginning.",
+    "overview": "When a boy vanishes in a small Indiana town, his friends, family and a mysterious girl uncover secret experiments and a terrifying other world.",
+    "cast": [
+      "Millie Bobby Brown",
+      "Finn Wolfhard",
+      "Winona Ryder",
+      "David Harbour"
+    ],
+    "popularity": 91
+  },
+  {
+    "id": 36,
+    "mediaType": "tv",
+    "title": "The Office",
+    "year": 2005,
+    "genres": [
+      "Comedy"
+    ],
+    "rating": 8.6,
+    "seasons": 9,
+    "creator": "Greg Daniels",
+    "tagline": "A documentary crew. A paper company. Zero chill.",
+    "overview": "A mockumentary following the everyday chaos of a mid-sized paper company branch and its painfully well-meaning manager.",
+    "cast": [
+      "Steve Carell",
+      "Rainn Wilson",
+      "John Krasinski",
+      "Jenna Fischer"
+    ],
+    "popularity": 83
+  },
+  {
+    "id": 37,
+    "mediaType": "tv",
+    "title": "Chernobyl",
+    "year": 2019,
+    "genres": [
+      "Drama",
+      "History",
+      "Thriller"
+    ],
+    "rating": 8.7,
+    "seasons": 1,
+    "creator": "Craig Mazin",
+    "tagline": "What is the cost of lies?",
+    "overview": "A gripping account of the 1986 nuclear disaster and the scientists, workers and officials who fought to contain it and uncover the truth.",
+    "cast": [
+      "Jared Harris",
+      "Stellan Skarsgård",
+      "Emily Watson",
+      "Paul Ritter"
+    ],
+    "popularity": 67
+  },
+  {
+    "id": 38,
+    "mediaType": "tv",
+    "title": "The Last of Us",
+    "year": 2023,
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "rating": 8.6,
+    "seasons": 2,
+    "creator": "Craig Mazin & Neil Druckmann",
+    "tagline": "When you're lost in the darkness, look for the light.",
+    "overview": "Twenty years after a fungal outbreak collapses civilization, a hardened smuggler escorts a teenage girl who may be humanity's last hope.",
+    "cast": [
+      "Pedro Pascal",
+      "Bella Ramsey",
+      "Gabriel Luna",
+      "Anna Torv"
+    ],
+    "popularity": 93
+  },
+  {
+    "id": 39,
+    "mediaType": "tv",
+    "title": "Succession",
+    "year": 2018,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "rating": 8.4,
+    "seasons": 4,
+    "creator": "Jesse Armstrong",
+    "tagline": "Make your move.",
+    "overview": "The four adult children of a ruthless media mogul jockey for control of the family empire as their father refuses to let go.",
+    "cast": [
+      "Brian Cox",
+      "Jeremy Strong",
+      "Sarah Snook",
+      "Kieran Culkin"
+    ],
+    "popularity": 79
+  },
+  {
+    "id": 40,
+    "mediaType": "tv",
+    "title": "Dark",
+    "year": 2017,
+    "genres": [
+      "Science Fiction",
+      "Mystery",
+      "Drama"
+    ],
+    "rating": 8.4,
+    "seasons": 3,
+    "creator": "Baran bo Odar & Jantje Friese",
+    "tagline": "The question is not where, but when.",
+    "overview": "A missing child in a small German town exposes the fractured relationships of four families and a time-travel conspiracy spanning generations.",
+    "cast": [
+      "Louis Hofmann",
+      "Lisa Vicari",
+      "Maja Schöne",
+      "Oliver Masucci"
+    ],
+    "popularity": 71
+  },
+  {
+    "id": 41,
+    "mediaType": "tv",
+    "title": "The Bear",
+    "year": 2022,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "rating": 8.2,
+    "seasons": 3,
+    "creator": "Christopher Storer",
+    "tagline": "Every second counts.",
+    "overview": "A young fine-dining chef comes home to Chicago to run his late brother's chaotic sandwich shop and its stubborn, loyal crew.",
+    "cast": [
+      "Jeremy Allen White",
+      "Ebon Moss-Bachrach",
+      "Ayo Edebiri",
+      "Lionel Boyce"
+    ],
+    "popularity": 80
+  },
+  {
+    "id": 42,
+    "mediaType": "tv",
+    "title": "Severance",
+    "year": 2022,
+    "genres": [
+      "Science Fiction",
+      "Mystery",
+      "Thriller"
+    ],
+    "rating": 8.4,
+    "seasons": 2,
+    "creator": "Dan Erickson",
+    "tagline": "Work. Life. Separated.",
+    "overview": "Employees of a secretive corporation undergo a procedure that splits their work memories from their personal lives, until the walls start to crack.",
+    "cast": [
+      "Adam Scott",
+      "Britt Lower",
+      "Zach Cherry",
+      "John Turturro"
+    ],
+    "popularity": 87
+  },
+  {
+    "id": 43,
+    "mediaType": "tv",
+    "title": "Arcane",
+    "year": 2021,
+    "genres": [
+      "Animation",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.7,
+    "seasons": 2,
+    "creator": "Christian Linke & Alex Yee",
+    "tagline": "Every legend has a beginning.",
+    "overview": "Two sisters are driven apart amid rising tensions between a gleaming utopian city and the oppressed undercity beneath it.",
+    "cast": [
+      "Hailee Steinfeld",
+      "Ella Purnell",
+      "Kevin Alejandro",
+      "Katie Leung"
+    ],
+    "popularity": 85
+  },
+  {
+    "id": 44,
+    "mediaType": "tv",
+    "title": "Sherlock",
+    "year": 2010,
+    "genres": [
+      "Mystery",
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.5,
+    "seasons": 4,
+    "creator": "Mark Gatiss & Steven Moffat",
+    "tagline": "The game is on.",
+    "overview": "A brilliant, abrasive consulting detective and an army doctor solve baffling crimes across modern-day London.",
+    "cast": [
+      "Benedict Cumberbatch",
+      "Martin Freeman",
+      "Una Stubbs",
+      "Rupert Graves"
+    ],
+    "popularity": 73
+  }
+]

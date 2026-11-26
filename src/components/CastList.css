@@ -1,0 +1,39 @@
+.cast {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+.cast__person {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.65rem;
+  border-radius: var(--radius);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  transition: border-color 0.2s, transform 0.2s;
+}
+.cast__person:hover { border-color: var(--border-strong); transform: translateY(-2px); }
+.cast__avatar {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.cast__avatar--initials {
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #fff6e8;
+}
+.cast__name { font-weight: 700; font-size: 0.93rem; }
+.cast__character { font-size: 0.8rem; color: var(--muted); }
+
+@media (max-width: 760px) {
+  .cast { grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+  .cast__person { flex-direction: column; text-align: center; gap: 0.5rem; padding: 0.9rem 0.5rem; }
+}

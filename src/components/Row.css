@@ -1,0 +1,59 @@
+.row { margin-top: 3rem; }
+
+.row__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.row__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 2.2vw, 1.75rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.row__subtitle {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin-top: 0.2rem;
+}
+
+.row__controls {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+.row__see-all {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-right: 0.5rem;
+}
+.row__see-all:hover { text-decoration: underline; }
+
+/* Scroll-snap makes trackpad/touch scrolling land neatly on a card. */
+.row__scroller {
+  --card-w: clamp(140px, 15vw, 200px);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: var(--card-w);
+  gap: 1.1rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--gutter);
+  padding: 0.5rem var(--gutter) 1rem;
+  scrollbar-width: none;
+}
+.row__scroller::-webkit-scrollbar { display: none; }
+.row__scroller > * { scroll-snap-align: start; }
+
+.row__error { color: var(--muted); padding: 1.5rem var(--gutter); }
+
+@media (max-width: 760px) {
+  .row__controls .icon-btn { display: none; }
+  .row__scroller { --card-w: 128px; gap: 0.8rem; }
+}

@@ -1,0 +1,81 @@
+.card {
+  position: relative;
+  min-width: 0;
+}
+
+.card__link { display: block; }
+
+.card__poster {
+  position: relative;
+  aspect-ratio: 2 / 3;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.7);
+  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease);
+}
+
+/* A diagonal light sweep that glides across the poster on hover. */
+.card__shine {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, 0.18) 50%, transparent 65%);
+  transform: translateX(-120%);
+  transition: transform 0.7s var(--ease);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.card__link:hover .card__poster,
+.card__link:focus-visible .card__poster {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 40px -14px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(255, 200, 97, 0.35);
+}
+.card__link:hover .card__shine { transform: translateX(120%); }
+
+.card__rating {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 3;
+  background: rgba(11, 10, 16, 0.72);
+  backdrop-filter: blur(6px);
+}
+
+.card__title {
+  margin-top: 0.7rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.2s;
+}
+.card__link:hover .card__title { color: var(--accent); }
+
+.card__meta {
+  margin-top: 0.15rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.card__save {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 4;
+  opacity: 0;
+  transform: scale(0.85);
+  transition: opacity 0.2s, transform 0.2s, background 0.2s;
+}
+.card:hover .card__save,
+.card__save:focus-visible,
+.card__save.is-saved {
+  opacity: 1;
+  transform: none;
+}
+/* Touch screens have no hover, so always show the button there. */
+@media (hover: none) {
+  .card__save { opacity: 1; transform: none; }
+}

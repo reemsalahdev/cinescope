@@ -1,0 +1,121 @@
+.nav {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 50;
+  height: var(--nav-h);
+  transition: background 0.3s, border-color 0.3s, backdrop-filter 0.3s;
+  border-bottom: 1px solid transparent;
+  background: linear-gradient(to bottom, rgba(11, 10, 16, 0.75), transparent);
+}
+.nav--solid {
+  background: rgba(11, 10, 16, 0.86);
+  backdrop-filter: blur(14px) saturate(1.3);
+  border-bottom-color: var(--border);
+}
+
+.nav__inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.nav__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.nav__brand em {
+  font-style: italic;
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.nav__links {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.nav__link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--muted);
+  transition: color 0.2s, background 0.2s;
+}
+.nav__link:hover { color: var(--text); background: rgba(255, 255, 255, 0.05); }
+.nav__link.active { color: var(--text); background: rgba(255, 255, 255, 0.08); }
+
+.nav__count {
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #1b1206;
+  background: var(--accent-gradient);
+}
+
+.nav__actions {
+  margin-left: auto;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav__toggle { display: none; }
+
+.nav__mobile { display: none; }
+
+@media (max-width: 760px) {
+  .nav__links { display: none; }
+  .nav__toggle { display: grid; }
+
+  .nav__mobile {
+    position: fixed;
+    top: var(--nav-h);
+    left: 0;
+    right: 0;
+    height: calc(100dvh - var(--nav-h));
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1.5rem 1.25rem;
+    /* Solid background: a backdrop-filter nested inside the blurred navbar wouldn't apply. */
+    background: var(--bg);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.25s, transform 0.25s, visibility 0.25s;
+  }
+  .nav__mobile.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+  .nav__mobile .nav__link {
+    font-family: var(--font-display);
+    font-size: 1.9rem;
+    font-weight: 700;
+    padding: 0.7rem 0.4rem;
+    border-radius: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav__mobile .nav__link.active {
+    background: none;
+    color: var(--accent);
+  }
+}
